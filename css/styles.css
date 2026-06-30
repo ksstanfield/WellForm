@@ -124,18 +124,37 @@ p {
     text-align: center;
 }
 
+.cta-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
 .cta-img {
     width: 100%;
     max-width: 900px;
     border-radius: 10px;
-    margin-bottom: 2rem;
+    display: block;
 }
 
-.cta h3 {
-    font-size: 1.8rem;
+/* Overlay container */
+.cta-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    width: 100%;
+    max-width: 900px;
+    padding: 1rem;
+}
+
+.cta-overlay h3 {
+    font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 
+/* Buttons */
 .cta-buttons {
     display: flex;
     gap: 1rem;
@@ -151,11 +170,13 @@ p {
     font-weight: 500;
 }
 
+/* Dark primary button */
 .primary {
     background: #222;
     color: #fff;
 }
 
+/* Light secondary button */
 .secondary {
     background: #eee;
     color: #222;
