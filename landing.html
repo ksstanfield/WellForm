@@ -3,65 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome – Dr. Kay Stanfield</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 40px;
-            color: #333;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #008c9e;
-            margin-bottom: 0;
-        }
-        .tagline {
-            font-style: italic;
-            margin-bottom: 30px;
-        }
-        a.button {
-            display: block;
-            width: fit-content;
-            padding: 14px 24px;
-            margin: 12px 0;
-            background-color: #008c9e;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: background-color 0.2s ease;
-        }
-        a.button:hover {
-            background-color: #006f7c;
-        }    
-        footer {
-            margin-top: 60px;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+    <title>Dr. Kay Stanfield – WellForm Coaching</title>
+
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <h1>Welcome</h1>
-    <h2>I'm Dr. Kay Stanfield</h2>
-    <p class="tagline">Guided by science. Driven by strategy.</p>
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <img src="images/hero.jpg" alt="Beach walking hero image" class="hero-img">
+        <div class="hero-text">
+            <h1>DR. KAY STANFIELD</h1>
+            <h2>Personal Trainer</h2>
+            <h2>Health & Wellness Coach</h2>
+            <p class="tagline">Guided by Science. Driven by Strategy.</p>
+        </div>
+    </header>
 
-    <h3>How I Help</h3>
-    <ul>
-        <li>Behavior Change Guidance for Better Health</li>
-        <li>Personal Fitness Programming</li>
-        <li>Virtual Health Coaching</li>
-    </ul>
-    
-    <h3>Start Here</h3>
-    <a class="button" href="https://www.linkedin.com/in/k-sharon-phd" target="_blank">Connect on LinkedIn</a>
-    <a class="button" href="mailto:drksstanfield@gmail.com">Email Me</a>
-    <a class="button" href="index.html">Visit Full Website</a>
+    <!-- SERVICES SECTION -->
+    <section class="services">
+        <h3 class="section-title">SERVICES PROVIDED</h3>
 
-    <footer style="text-align:center; margin-top:60px; color:#777;">
-        © 2026 Dr. Kay Stanfield • Health Coach & Personal Trainer
+        <div class="service-grid">
+
+            <div class="service-card">
+                <img src="images/service1.jpg" alt="Behavior Change Guidance">
+                <h4>Behavior Change Guidance</h4>
+                <p>Helping clients make sustainable changes to their habits.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="images/service2.jpg" alt="Personal Fitness Programming">
+                <h4>Personal Fitness Programming</h4>
+                <p>Creating customized workout plans suited to individual goals.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="images/service3.jpg" alt="Virtual Coaching & Training">
+                <h4>Virtual Coaching & Training</h4>
+                <p>Providing support from anywhere.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CREDENTIALS SECTION -->
+    <section class="credentials">
+        <div class="credentials-content">
+            <img src="images/portrait.jpg" alt="Portrait of Dr. Kay Stanfield" class="portrait">
+            <div class="credentials-text">
+                <h3>KAY’S CREDENTIALS</h3>
+                <p>Ph.D. in Science Education</p>
+                <p>M.S. in Exercise Science</p>
+                <p>Certified Health & Wellness Coach (AFPA)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <img src="images/cta.jpg" alt="Exercise CTA image" class="cta-img">
+        <h3>READY TO START?</h3>
+
+        <div class="cta-buttons">
+            <a href="#" class="btn primary">Free Consult</a>
+            <a href="#" class="btn secondary">Contact and Schedule</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Dr. Kay Stanfield – WellForm Coaching</p>
+        <div class="footer-icons">
+            <!-- Replace with your SVG icons later -->
+            <span>📧</span>
+            <span>🔗</span>
+            <span>📱</span>
+        </div>
     </footer>
 
 </body>
