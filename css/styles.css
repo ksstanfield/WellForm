@@ -202,9 +202,18 @@ p {
 }
 
 .footer-icons {
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    font-size: 1.3rem;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer-icons img {
+    width: 28px;
+    height: 28px;
+    margin: 0 12px;
+    opacity: 0.75;
+    transition: opacity 0.2s ease;
+}
+
+.footer-icons img:hover {
+    opacity: 1;
 }
