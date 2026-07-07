@@ -194,6 +194,19 @@ p {
     background-color: #16697A; /* Slightly lighter teal */
   }
 
+@media (max-width: 480px) {
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .cta-btn {
+    width: 80%;           /* gives a clean centered button */
+    text-align: center;
+  }
+}
+
 /* CONSULTATION SECTIONS */
 .consult-section {
     padding: 80px 20px;
