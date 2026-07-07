@@ -6,6 +6,10 @@ body {
     background: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4 {
     margin: 0;
     font-weight: 600;
