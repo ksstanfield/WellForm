@@ -171,41 +171,30 @@ p {
 
 /* Buttons */
 .cta-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    margin: 40 px 0;
+  display: flex;
+  flex-direction: column;   /* stack buttons vertically */
+  align-items: center;      /* center them horizontally */
+  gap: 12px;
+  margin: 40px 0;
 }
 
 .cta-btn {
-    padding: 12px 24px;
-    background-color: #0F4C5C; /* Deep teal brand color */
-    color: #ffffff;
-    border-radius: 6px;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.2s ease;
-    white-space: nowrap;
+  display: inline-block;
+  width: 80%;               /* keeps them inside mobile width */
+  max-width: 320px;         /* looks good on desktop too */
+  text-align: center;
+  padding: 12px 20px;
+  background-color: #0F4C5C;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .cta-btn:hover {
     background-color: #16697A; /* Slightly lighter teal */
   }
-
-@media (max-width: 480px) {
-  .cta-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .cta-btn {
-    width: 80%;           /* gives a clean centered button */
-    text-align: center;
-  }
-}
 
 /* CONSULTATION SECTIONS */
 .consult-section {
