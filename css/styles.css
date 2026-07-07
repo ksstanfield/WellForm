@@ -1,13 +1,13 @@
 /* GLOBAL */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: #222;
     background: #fff;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
