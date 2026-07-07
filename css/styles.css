@@ -168,30 +168,25 @@ p {
 /* Buttons */
 .cta-buttons {
     display: flex;
-    gap: 1rem;
+    gap: 24px;
     justify-content: center;
-    flex-wrap: wrap;
+    margin: 40 px 0;
 }
 
-.btn {
-    padding: 0.8rem 1.6rem;
+.cta-btn {
+    padding: 12px 24px;
+    background-color: #0F4C5C; /* Deep teal brand color */
+    color: #ffffff;
     border-radius: 6px;
     font-size: 1rem;
     text-decoration: none;
     font-weight: 500;
+    transition: background-color 0.2s ease;
 }
 
-/* Dark primary button */
-.primary {
-    background: #222;
-    color: #fff;
-}
-
-/* Light secondary button */
-.secondary {
-    background: #eee;
-    color: #222;
-}
+.cta-btn:hover {
+    background-color: #16697A; /* Slightly lighter teal */
+  }
 
 /* FOOTER */
 .footer {
