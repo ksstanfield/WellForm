@@ -172,7 +172,8 @@ p {
 /* Buttons */
 .cta-buttons {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
     justify-content: center;
     margin: 40 px 0;
 }
@@ -186,6 +187,7 @@ p {
     text-decoration: none;
     font-weight: 500;
     transition: background-color 0.2s ease;
+    white-space: nowrap;
 }
 
 .cta-btn:hover {
