@@ -190,43 +190,58 @@ p {
 
 /* CONSULTATION SECTIONS */
 .consult-section {
-    padding: 60px 20px;
-    max-width: 800px;
+    padding: 80px 20px;
+    max-width: 900px;
     margin: 0 auto;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e6e6e6;
   }
 
 .consult-section h2 {
-    font-size: 2rem;
-    margin-bottom: 12px;
-    color: #0F4C5C;
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    color: #0F4C5C;/* Deep teal */
+    font-weight: 600;   
   }
 
+/* Section intro paragraph */
 .consult-section p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-    line-height: 1.6;
+    font-size: 1.15rem;
+    margin-bottom: 28px;
+    line-height: 1.7;
+    color: #333333;
   }
 
+/* Subhead */
+.consult-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #0F4C5C;
+  font-weight: 500;
+}
+
+/* Bullet list */
 .consult-section ul {
-    margin-bottom: 24px;
-    padding-left: 20px;
-  }
+  margin-bottom: 32px;
+  padding-left: 22px;
+  line-height: 1.7;
+  color: #444444;
 
+/* Booking button */
 .consult-btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #0F4C5C;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: background-color 0.2s ease;
-  }
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #0F4C5C;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+}
 
 .consult-btn:hover {
     background-color: #16697A;
+    transform: translateY(-2px);
   }
 
 /* FOOTER */
