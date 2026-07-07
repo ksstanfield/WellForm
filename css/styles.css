@@ -188,6 +188,47 @@ p {
     background-color: #16697A; /* Slightly lighter teal */
   }
 
+/* CONSULTATION SECTIONS */
+.consult-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+.consult-section h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #0F4C5C;
+  }
+
+.consult-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+.consult-section ul {
+    margin-bottom: 24px;
+    padding-left: 20px;
+  }
+
+.consult-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0F4C5C;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+
+.consult-btn:hover {
+    background-color: #16697A;
+  }
+
 /* FOOTER */
 .footer {
     padding: 2rem 1rem;
