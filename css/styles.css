@@ -284,3 +284,10 @@ p {
 .footer-icons img:hover {
     opacity: 1;
 }
+
+@media (max-width: 480px) {
+  .cta-text {
+    font-size: 1.5rem;
+  }
+}  
+  
