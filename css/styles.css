@@ -264,10 +264,14 @@ p {
 
 /* FOOTER */
 .footer {
-    padding: 2rem 1rem;
-    text-align: center;
-    background: #fafafa;
-    font-size: 0.9rem;
+  padding: 2rem 1rem;
+  background: #fafafa;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;   /* stack text + icons vertically */
+  align-items: center;      /* center everything horizontally */
+  justify-content: center;
+  text-align: center;       /* keep text centered inside the flex container */
 }
 
 .footer-icons {
