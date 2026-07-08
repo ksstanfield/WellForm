@@ -286,7 +286,7 @@ p {
 }
 
 @media (max-width: 480px) {
-  .cta-text {
+  .cta-overlay h3 {
     font-size: 1.5rem;
   }
 }  
