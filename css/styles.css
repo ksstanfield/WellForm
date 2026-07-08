@@ -269,15 +269,19 @@ p {
 }
 
 .footer-icons {
-    text-align: center;
-    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;        /* evenly spaced icons */
+    padding: 20px 0;  /* smaller, cleaner spacing */
 }
 
 .footer-icons img {
-    width: 28px;
-    height: 28px;
-    margin: 0 12px;
-    opacity: 0.75;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;   /* keeps proportions clean */
+    margin: 0;
+    opacity: 0.85;
     transition: opacity 0.2s ease;
 }
 
